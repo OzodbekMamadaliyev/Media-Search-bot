@@ -1,4 +1,4 @@
-# [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# [Media Search bot](https://github.com/OzodbekMamadaliyev/Media-Search-bot)
 
 * Index channel or group files for inline search.
 * When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
@@ -31,22 +31,22 @@ Check [`sample_info.py`](sample_info.py) before editing [`info.py`](info.py) fil
 ### Docker
 ```
 docker run -d \
-    -e BOT_TOKEN="123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" \
-    -e API_ID='12345' \
-    -e API_HASH='0123456789abcdef0123456789abcdef' \
-    -e CHANNELS='-10012345678' \
-    -e ADMINS='123456789' \
-    -e DATABASE_URI="mongodb+srv://...mongodb.net/Database?retryWrites=true&w=majority" \
-    -e DATABASE_NAME=databasename \
+    -e BOT_TOKEN="6979510433:AAEuaJvSfAw3tHbX0CuyjFF42Eh6kzMfULM" \
+    -e API_ID='25243039' \
+    -e API_HASH='aa6c5dfa52edb7ab303e2afae124b3c0' \
+    -e CHANNELS='-1002010946615' \
+    -e ADMINS='5623666470' \
+    -e DATABASE_URI="mongodb+srv://golosbotuchun:OzodclPR2410#@mygolosbot.djchups.mongodb.net/?retryWrites=true&w=majority" \
+    -e DATABASE_NAME=mygolosbot \
     --restart on-failure \
-    --name mediasearchbot botxtg/media-search-bot
+    --name yangigolosbot botxtg/media-search-bot
 ```
 You can also run with `env` file like below,
 ```
 docker run -d \ 
      --env-file .env \
      --restart on-failure \
-     --name mediasearchbot botxtg/media-search-bot
+     --name yangigolosbot botxtg/media-search-bot
 ```
 
 ## Variables
